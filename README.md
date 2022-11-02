@@ -15,4 +15,4 @@
 11. run "dvc repro" for running all the stages in pipeline
 
 
-![img](docs\images\Project_structure.PNG)
+![img](docs/images/Project_structure.png)
