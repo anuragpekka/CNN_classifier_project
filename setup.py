@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-__version__ = "0.0.0" # "MAJOR.MINOR.PATCH"
+__version__ = "1.0.0" # "MAJOR.MINOR.PATCH"
 
 REPO_NAME = "CNN_classifier_project"
 AUTHOR_USER_NAME = "anuragpekka"
