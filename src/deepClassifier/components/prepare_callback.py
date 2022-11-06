@@ -3,6 +3,7 @@ from deepClassifier.entity import PrepareCallbacksConfig
 import tensorflow as tf
 import time
 
+
 class PrepareCallback:
     def __init__(self, config: PrepareCallbacksConfig):
         self.config = config

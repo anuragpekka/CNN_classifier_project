@@ -2,6 +2,7 @@ from pathlib import Path
 from deepClassifier.entity import PrepareBaseModelConfig
 import tensorflow as tf
 
+
 class PrepareBaseModel:
     def __init__(self, config: PrepareBaseModelConfig):
         self.config = config
@@ -14,7 +15,6 @@ class PrepareBaseModel:
         )
 
         self.save_model(path=self.config.base_model_path, model=self.model)
-
 
     @staticmethod
     def _prepare_full_model(model, classes, freeze_all, freeze_till, learning_rate):
